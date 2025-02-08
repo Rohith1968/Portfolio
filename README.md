@@ -8,7 +8,7 @@ This is my personal **portfolio website**, showcasing my projects, technical ski
 
 ## **🔧 Built With**
 - **React.js** - Frontend Framework  
-- **Node.js & Express.js** - Backend (if applicable)  
+- **Node.js & Express.js** - Backend 
 - **CSS3** - Styling  
 - **Vercel** - Deployment  
 - **Visual Studio Code** - Development  
