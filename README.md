@@ -1,5 +1,5 @@
 # **Portfolio Website - v2.0**  
-[![Portfolio](https://img.shields.io/badge/Visit-Portfolio-blue)](https://rohith1968.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Visit-Portfolio-blue)](https://rohith1968.netlify.app/)
 
 ## **🚀 About the Project**
 This is my personal **portfolio website**, showcasing my projects, technical skills, and resume. It serves as a platform for potential employers, clients, and collaborators to learn more about my work.
