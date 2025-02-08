@@ -12,8 +12,8 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
 import { CgFileDocument } from "react-icons/cg";
+import { MdWork, MdLibraryBooks } from "react-icons/md"; // Import Icons
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -37,20 +37,22 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
+        {/* Change the Website Logo Name */}
         <Navbar.Brand href="/" className="d-flex">
-        <span className="purple" style={{ fontSize: "1.5rem", fontWeight: "bold" }}>RK</span>
+          <span className="purple" style={{ fontSize: "1.5rem", fontWeight: "bold" }}>
+            RK Portfolio
+          </span>
         </Navbar.Brand>
 
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : "expanded");
-          }}
+          onClick={() => updateExpanded(expand ? false : "expanded")}
         >
           <span></span>
           <span></span>
           <span></span>
         </Navbar.Toggle>
+
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
@@ -60,56 +62,46 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
 
+            {/* ✅ Add Internships Section */}
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+              <Nav.Link as={Link} to="/internships" onClick={() => updateExpanded(false)}>
+                <MdWork style={{ marginBottom: "2px" }} /> Internships
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link as={Link} to="/project" onClick={() => updateExpanded(false)}>
+                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} /> Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            {/* ✅ Add Publications Section */}
+            <Nav.Item>
+              <Nav.Link as={Link} to="/publications" onClick={() => updateExpanded(false)}>
+                <MdLibraryBooks style={{ marginBottom: "2px" }} /> Publications
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link as={Link} to="/resume" onClick={() => updateExpanded(false)}>
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="https://Rohithkantipudi.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <Nav.Link href="https://Rohithkantipudi.vercel.app/" target="_blank" rel="noreferrer">
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/Rohith1968/Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+              <Button href="https://github.com/Rohith1968/Portfolio" target="_blank" className="fork-btn-inner">
+                <CgGitFork style={{ fontSize: "1.2em" }} /> <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>
           </Nav>
