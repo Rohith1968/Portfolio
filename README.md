@@ -1,76 +1,75 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+# **Portfolio Website - v2.0**  
+[![Portfolio](https://img.shields.io/badge/Visit-Portfolio-blue)](https://rohith1968.vercel.app/)
 
-<br/>
+## **🚀 About the Project**
+This is my personal **portfolio website**, showcasing my projects, technical skills, and resume. It serves as a platform for potential employers, clients, and collaborators to learn more about my work.
 
-<center>
+---
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+## **🔧 Built With**
+- **React.js** - Frontend Framework  
+- **Node.js & Express.js** - Backend (if applicable)  
+- **CSS3** - Styling  
+- **Vercel** - Deployment  
+- **Visual Studio Code** - Development  
 
-</center>
+---
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+## **✨ Features**
+✅ **Multi-Page Layout** – Organized and easy to navigate  
+✅ **Fully Responsive** – Works on mobile, tablet, and desktop  
+✅ **Customizable Theme** – Easily tweak colors and styles  
+✅ **Project Showcase** – Displays my latest work  
+✅ **Contact Form** – Reach out directly from the website  
 
-## TL;DR
+---
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+## **📌 Getting Started**
+### **Prerequisites**
+Make sure you have **Node.js** and **Git** installed globally on your system.
 
-## Built With
+### **Installation Steps**
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Rohith1968/Portfolio.git
+   cd Portfolio
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm start
+   ```
+4. Open **[http://localhost:3000](http://localhost:3000)** in your browser.
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+---
 
-This project was built using these technologies.
+## **🛠 Usage Instructions**
+- Navigate to `/src/components/` to customize content.
+- Modify styles in `/src/style.css` to match your branding.
+- Update your **projects** in `/src/components/Projects/Projects.js`.
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+---
 
-## Features
+## **🤝 Contributing**
+Contributions are welcome! If you find a bug or have an idea for an improvement, feel free to:
+1. **Fork** the repo  
+2. **Create a new branch** (`feature/new-feature`)  
+3. **Commit your changes**  
+4. **Push and submit a pull request**  
 
-**📖 Multi-Page Layout**
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+---
 
-**📱 Fully Responsive**
+## **📬 Contact**
+📧 **Email:** rohith@example.com  
+🔗 **Portfolio:** [rohith1968.vercel.app](https://rohith1968.vercel.app/)  
+🔗 **GitHub:** [Rohith1968](https://github.com/Rohith1968)  
+🔗 **LinkedIn:** [linkedin.com/in/rohith](https://linkedin.com/in/rohith)  
 
-## Getting Started
+---
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+🔥 _Built with passion by Rohith_ 🚀
 
-## 🛠 Installation and Setup Instructions
-
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
-## Usage Instructions
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
-
-### Show your support
-
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
